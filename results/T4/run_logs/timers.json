@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1688738075",
+        "python_version": "3.9.12 (main, Apr  5 2022, 01:53:17) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/Users/tevykuch/venv/bin/mlagents-learn --run-id=T4 --base-port=49413",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1688738077"
+    },
+    "total": 1.0654052160000003,
+    "count": 1,
+    "self": 0.00896855200000024,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05034334499999993,
+            "count": 1,
+            "self": 0.05034334499999993
+        },
+        "TrainerController.start_learning": {
+            "total": 1.006093319,
+            "count": 1,
+            "self": 8.24630000000326e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.005941386,
+                    "count": 1,
+                    "self": 1.005941386
+                },
+                "TrainerController._save_models": {
+                    "total": 6.947000000012693e-05,
+                    "count": 1,
+                    "self": 6.947000000012693e-05
+                }
+            }
+        }
+    }
+}

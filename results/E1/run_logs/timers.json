@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1688825951",
+        "python_version": "3.9.12 (main, Apr  5 2022, 01:53:17) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/Users/tevykuch/venv/bin/mlagents-learn /Users/tevykuch/Documents/final?/config/movetogoal.yaml --run-id=E1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1688825974"
+    },
+    "total": 22.693212796,
+    "count": 1,
+    "self": 0.011223041000000933,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04359071800000014,
+            "count": 1,
+            "self": 0.04359071800000014
+        },
+        "TrainerController.start_learning": {
+            "total": 22.638399037,
+            "count": 1,
+            "self": 0.00033114500000053226,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 22.638042011,
+                    "count": 1,
+                    "self": 22.638042011
+                },
+                "trainer_threads": {
+                    "total": 1.0820000007072395e-06,
+                    "count": 1,
+                    "self": 1.0820000007072395e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.4798999998409954e-05,
+                    "count": 1,
+                    "self": 2.4798999998409954e-05
+                }
+            }
+        }
+    }
+}

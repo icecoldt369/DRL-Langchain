@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1687747885",
+        "python_version": "3.9.12 (main, Apr  5 2022, 01:53:17) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/Users/tevykuch/opt/anaconda3/bin/mlagents-learn --run-id=3",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.22.4",
+        "end_time_seconds": "1687747886"
+    },
+    "total": 1.1909847789999999,
+    "count": 1,
+    "self": 0.005828355999999868,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07511202900000002,
+            "count": 1,
+            "self": 0.07511202900000002
+        },
+        "TrainerController.start_learning": {
+            "total": 1.110044394,
+            "count": 1,
+            "self": 7.175500000000667e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.109952323,
+                    "count": 1,
+                    "self": 1.109952323
+                },
+                "TrainerController._save_models": {
+                    "total": 2.0316000000075718e-05,
+                    "count": 1,
+                    "self": 2.0316000000075718e-05
+                }
+            }
+        }
+    }
+}
