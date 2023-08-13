@@ -7,14 +7,14 @@ import streamlit as st
 from langchain import PromptTemplate
 from langchain.llms import OpenAI
 
-os.environ['OPENAI_API_KEY'] = 'sk-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'
+os.environ['OPENAI_API_KEY'] =
 
 #prompt template code
 template = """
 Below is an email that may be poorly formatted.
 Your goal is to:
 - Properly format the text
-- Convert te input text to a specified tone
+- Convert the input text to a specified tone
 - Convert the input text to a specified dialect
 
 Here are some examples of different Tones:
@@ -47,21 +47,20 @@ def load_LLM():
 llm = load_LLM()
 
 st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
-st.header("Kupo Services")
+st.header("LangChain for ML Agents")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("### What would you like to learn about today?")
-    st.write("I am a dog wielding amazing AI powers and I can grant you my wish, given that my algorithm i trained correctly and well")
+    st.write("I am testing this LangChain transformer.")
 
 with col2:
-    st.markdown("### Dog ")
-    st.write("૮₍ • ᴥ • ₎ა ")
+    st.markdown("### Dialect Converter ")
     st.write("[Github](https://github.com/icecoldt369)")
 
 with col3:
-    st.image(image='kupz.png', width=400, caption='Our Founder, Mr. Kupo')
+    st.image(image='image.png', width=400, caption='This is a beta website template for the transformer sequence.')
 
 st.markdown("## Enter Your Question to Query")
 
