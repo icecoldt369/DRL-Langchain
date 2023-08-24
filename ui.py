@@ -1,4 +1,3 @@
-# https://www.youtube.com/watch?v=U_eV8wfMkXU&ab_channel=GregKamradt%28DataIndy%29
 
 import os
 import sys
